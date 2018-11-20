@@ -8,12 +8,12 @@ module.exports = {
   // 集成到portal时打包配置pub
   pub: {
     // 打包后资源文件房在那个目录下
-    assetsRoot: path.resolve(__dirname, '../moduleB'),
+    assetsRoot: path.resolve(__dirname, '../search'),
     // 静态资源文件目录
     assetsSubDirectory: 'static',
     // 发布路径，如果构建后的产品文件有用于发布CDN或者放到其他域名的服务器，可以在这里进行设置
     // 设置后构建的产品文件在注入到index.html中就会待生这里的发布路径
-    assetsPublicPath: '/moduleB/'
+    assetsPublicPath: '/search/'
   },
   dev: {
     // 静态资源文件夹
